@@ -9,11 +9,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
+  div.jumbotron {background-color: rgb(255,111,28)}
+  body {background-color: #f7ba8b}
   </style>
 </head>
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<div class="jumbotron text-center" style="margin-bottom:20px">
   <h1>Der Australische Leierschwanz</h1>
   <h3>Ein Kleinod des Outbacks</h3>
 </div>
@@ -25,13 +27,13 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Bilder</a>
+        <a class="nav-link" href="https://www.google.com/search?q=australischer+Leierschwanz&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjUhN7mpvPwAhXqMewKHTZ6A-IQ_AUoAXoECAEQAw&biw=779&bih=965">Bilder</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Videos</a>
+        <a class="nav-link" href="https://www.youtube.com/watch?v=8N2XDOOF1nk">Videos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Wikipedeia-Page</a>
+        <a class="nav-link" href="https://de.wikipedia.org/wiki/Leierschw%C3%A4nze#Imitation">Wikipedeia-Page</a>
       </li>
     </ul>
   </div>
@@ -40,27 +42,104 @@
 
 <div class="container" style="margin-top:30px">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-2">
 
       <p>LINKS EINFÜGEN</p>
       <hr class="d-sm-none">
     </div>
-    <div class="col-sm-8">
-      <h2>Identifikation</h2>
+    <div class="col-sm-5">
+      <h2>Klassifizierung</h2>
 
-      <p>Some text..</p>
+      <p style="margin-top: 30px;">Als erstes bleibt zu sagen, dass es eigentlich gar nicht den
+        einen australischen Leierschwanz gibt, sondern dass Leierschwänze
+        grundlegend in zwei Arten aufgeteilt werden: Den Graurücken-Leierschwanz
+        und den Braunrücken-Leierschwanz. Da aber beide Arten nur in Australien
+        vorkommen werden sie unter dem Begriff "Australischer Leierschwanz"
+        zusammengefasst. Die beiden Arten weisen körperlich nur wenige untertschiede
+        auf, deshalb werden sie beide jeweils der Unterklasse der "Neukiefervögel (=Neognathe)"
+        und der Ordnung der "Sperlings- bzw. Singvögel" zugeordnet.</p>
 
-      <br>
-      <h2>TITLE HEADING</h2>
-      <p>Some text..</p>
+      </div>
+    <div class="col-sm-5" style="margin-top:100px">
+    <img src="data:image/jpeg;base64,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" alt="Bild eines Leierschwanzes">
+    </div>
+  </div>
+  <div class="row">
+  <div class="col-sm-2">
+  </div>
+    <div class="col-sm-9">
+    <h3 style="margin-top: 50px;">Allgemein:</h3>
+
+    <p style="margin-top: 30px;">Der australische Leierschwanz ist ein ca. 1 m langer Vogel. Er kann bis
+      zu 15 Jahre alt werden.Meistens findet man den grau-braun gefiederten Leierschwanz
+      am Boden auf Nahrungssuche. Er ist zwar nicht flugunfähig, jedoch bevorzugt er
+      die fortbewegung am Boden. Zum Schlafen sucht sich der Leierschwanz einen hohen Ast,
+      um vor Fressfeinden sicher zu sein. Charaktaristisch für sein Aussehen sind seine über
+      55cm langen Schwanzfedern.Da der Leierschwanz sehr scheu ist, bekommt man ihn
+      aber eher selten zu Gesicht.</p>
+
+    <h3 style="margin-top: 50px;"> Nahrungssuche </h3>
+
+    <p style="margin-top: 30px;"> Der Leierschwanz ernährt sich überwiegend von Insekten, Würmern, Larven und
+    anderen wirbellosen Tieren, die er mit seinen kräftigen Beinen aus dem Boden holt.
+    Außerdem frisst er mit Vergnügen die Beute anderer Tiere. Alles was er dafür tun muss
+    ist, ein lautes und erschreckendes Geräusch nachzuahmen, daraufhin ergreifen andere
+    Tiere die Flucht und lassen ihre Beute liegen, die der Leierschwanz dann ungestört
+    fressen kann.</p>
+
+
+
 
   </div>
-</div>
+  <div class="col-sm-1">
+      </div>
+  </div>
+  <div class="row">
+  <div class="col-sm-2">
+  </div>
+  <div class="col-sm-5">
 
+    <h3 style="margin-top: 50px;">Paarungsrituale </h3>
+
+    <p style="margin-top: 30px;">Zuerst scharren die männlichen Leierschwänze einen Haufen weicher Erde zusammen um
+      besser gesehen zu werden, dann tun sie etwas denkbar ungewöhnliches: Sie falten ihre
+      langen Schwanzfedern über den Kopf, tänzeln und singen. Ist ein Weibchen gefunden wird
+      sofort mit dem Nestbau begonnen. Die Nester sind zumeist aus Reisig und Pflanzenfasern
+      und werden gleich nach der Fertigstellung mit einem hühnergroßen Ei bestückt, das in den
+      Folgenden 6 Wochen vom Weibchen ausgebrütet wird. Auch später kümmert sich immer nur das
+      Weibchen um das Junge
+  </div>
+  <div class="col-sm-5"  style="margin-top: 50px;">
+<img src="https://i.pinimg.com/564x/6a/e1/58/6ae1587d8fdda750ac929ae1554a2541.jpg" width="300"  alt="Leierschwanz bei der Balz">
+
+
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-2">
+  </div>
+  <div class="col-sm-9">
+    <h3>Besonderheiten</h3>
+      <p>Die Besonderheit des Leierschwanzes ist wohl eine der bewundernswertesten im ganzen
+         Tierreich. Er kann nähmlich nahezu jedes Geräusch annähernd perfekt nachahmen, das
+         er hört. Das funktioniert nur wegen seiner hervorragend ausgebildeten Syrnix
+         (=Stimmbildungsorgan der Vögel) mit der er sogar mehrere Geräusche gleichzeitig produzieren
+         kann. Sieht man also von der Sinnlosigkeit des Gedanken ab, könnte ein Leierschwanz locker ein
+         Duett mit sich selbst singen, auch ein Chorgesang oder eine Baustellen-Geräuschkulisse liegen
+         im Bereich des Möglichen.
+      </p>
+
+  </div>
+  <div class="col-sm-1">
+  </div>
+
+</div>
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Impressum
+  <p>Impressum:<br>
+    Dies ist ein Informatik-Projekt der 6. Klassen des Borg Egg  |  Jonas Fehr  |<br>
+    Quellen: Wikipedia, N24 Dokumentation zu Leierschwänzen  |  Bilder: Google
   </p>
 </div>
-
+</div>
 </body>
 </html>
